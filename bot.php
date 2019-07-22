@@ -34,8 +34,8 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-$Topic = "NodeMCU1" ;
-$text = "Test";
+$Topic = "AISNBIOT" ;
+$text = "AIS NB-IOTs";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
 ?>
